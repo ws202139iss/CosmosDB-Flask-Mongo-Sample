@@ -15,7 +15,7 @@ heading = "ToDo Reminder"
 ## Comment out when running locally
 client = MongoClient(os.getenv("MONGOURL"))
 db = client.test    #Select the database
-db.authenticate(name=os.getenv("MONGO_USERNAME"),password=os.getenv("MONGO_PASSWORD"))
+#db.authenticate(name=os.getenv("MONGO_USERNAME"),password=os.getenv("MONGO_PASSWORD"))
 todos = db.todo #Select the collection
 
 def redirect_url():
