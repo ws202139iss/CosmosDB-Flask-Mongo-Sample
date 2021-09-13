@@ -1,3 +1,2 @@
-bson
 Flask==1.0
 pymongo==3.12.0
