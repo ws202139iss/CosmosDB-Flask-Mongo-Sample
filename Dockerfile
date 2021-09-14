@@ -1,7 +1,7 @@
 FROM python:3.8
 
-ARG build_mongourl_value
-ENV MONGOURL=$build_mongourl_value
+#ARG build_mongourl_value
+#ENV MONGOURL=$build_mongourl_value
 
 # Update pip
 RUN pip install -U pip
